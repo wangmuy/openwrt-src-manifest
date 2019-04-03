@@ -2,74 +2,74 @@
 <manifest>
   <remote fetch="https://git.openwrt.org/" name="openwrt"/>
   <default remote="openwrt" revision="master" sync-j="4"/>
-  <project name="buildbot"/>
-  <project name="feed/packages"/>
-  <project name="feed/routing"/>
-  <project name="feed/telephony"/>
-  <project name="feed/video"/>
-  <project name="keyring"/>
-  <project name="maintainer-tools"/>
-  <project name="openwrt/openwrt"/>
-  <project name="openwrt/staging/blogic"/>
-  <project name="openwrt/staging/chunkeey"/>
-  <project name="openwrt/staging/dangole"/>
-  <project name="openwrt/staging/dedeckeh"/>
-  <project name="openwrt/staging/florian"/>
-  <project name="openwrt/staging/hauke"/>
-  <project name="openwrt/staging/jogo"/>
-  <project name="openwrt/staging/jow"/>
-  <project name="openwrt/staging/kaloz"/>
-  <project name="openwrt/staging/ldir"/>
-  <project name="openwrt/staging/luka"/>
-  <project name="openwrt/staging/lynxis"/>
-  <project name="openwrt/staging/lynxis/omap"/>
-  <project name="openwrt/staging/mkresin"/>
-  <project name="openwrt/staging/nbd"/>
-  <project name="openwrt/staging/neoraider"/>
-  <project name="openwrt/staging/noltari"/>
-  <project name="openwrt/staging/pepe2k"/>
-  <project name="openwrt/staging/rmilecki"/>
-  <project name="openwrt/staging/stintel"/>
-  <project name="openwrt/staging/thess"/>
-  <project name="openwrt/staging/wigyori"/>
-  <project name="openwrt/staging/xback"/>
-  <project name="openwrt/staging/yousong"/>
-  <project name="openwrt/svn-archive/archive"/>
-  <project name="openwrt/svn-archive/docs"/>
-  <project name="openwrt/svn-archive/feeds"/>
-  <project name="openwrt/svn-archive/openwrt"/>
-  <project name="openwrt/svn-archive/packages"/>
-  <project name="project/firewall3"/>
-  <project name="project/fstools"/>
-  <project name="project/iwinfo"/>
-  <project name="project/jsonpath"/>
-  <project name="project/librpc-uclibc"/>
-  <project name="project/libubox"/>
-  <project name="project/luci"/>
-  <project name="project/luci2/ui"/>
-  <project name="project/make_ext4fs"/>
-  <project name="project/mdnsd"/>
-  <project name="project/mountd"/>
-  <project name="project/netifd"/>
-  <project name="project/odhcp6c"/>
-  <project name="project/odhcpd"/>
-  <project name="project/omcproxy"/>
-  <project name="project/opkg-lede"/>
-  <project name="project/procd"/>
-  <project name="project/relayd"/>
-  <project name="project/rpcd"/>
-  <project name="project/ubox"/>
-  <project name="project/ubus"/>
-  <project name="project/ucert"/>
-  <project name="project/uci"/>
-  <project name="project/uclient"/>
-  <project name="project/ugps"/>
-  <project name="project/uhttpd"/>
-  <project name="project/umbim"/>
-  <project name="project/uqmi"/>
-  <project name="project/usbmode"/>
-  <project name="project/usign"/>
-  <project name="project/ustream-ssl"/>
-  <project name="web"/>
-  <project name="openwrt/staging/ynezz"/>
+  <project name="buildbot.git" path="buildbot"/>
+  <project name="feed/packages.git" path="feed/packages"/>
+  <project name="feed/routing.git" path="feed/routing"/>
+  <project name="feed/telephony.git" path="feed/telephony"/>
+  <project name="feed/video.git" path="feed/video"/>
+  <project name="keyring.git" path="keyring"/>
+  <project name="maintainer-tools.git" path="maintainer-tools"/>
+  <project name="openwrt/openwrt.git" path="openwrt/openwrt"/>
+  <project name="openwrt/staging/blogic.git" path="openwrt/staging/blogic"/>
+  <project name="openwrt/staging/chunkeey.git" path="openwrt/staging/chunkeey"/>
+  <project name="openwrt/staging/dangole.git" path="openwrt/staging/dangole"/>
+  <project name="openwrt/staging/dedeckeh.git" path="openwrt/staging/dedeckeh"/>
+  <project name="openwrt/staging/florian.git" path="openwrt/staging/florian"/>
+  <project name="openwrt/staging/hauke.git" path="openwrt/staging/hauke"/>
+  <project name="openwrt/staging/jogo.git" path="openwrt/staging/jogo"/>
+  <project name="openwrt/staging/jow.git" path="openwrt/staging/jow"/>
+  <project name="openwrt/staging/kaloz.git" path="openwrt/staging/kaloz"/>
+  <project name="openwrt/staging/ldir.git" path="openwrt/staging/ldir"/>
+  <project name="openwrt/staging/luka.git" path="openwrt/staging/luka"/>
+  <project name="openwrt/staging/lynxis.git" path="openwrt/staging/lynxis"/>
+  <project name="openwrt/staging/lynxis/omap.git" path="openwrt/staging/lynxis/omap"/>
+  <project name="openwrt/staging/mkresin.git" path="openwrt/staging/mkresin"/>
+  <project name="openwrt/staging/nbd.git" path="openwrt/staging/nbd"/>
+  <project name="openwrt/staging/neoraider.git" path="openwrt/staging/neoraider"/>
+  <project name="openwrt/staging/noltari.git" path="openwrt/staging/noltari"/>
+  <project name="openwrt/staging/pepe2k.git" path="openwrt/staging/pepe2k"/>
+  <project name="openwrt/staging/rmilecki.git" path="openwrt/staging/rmilecki"/>
+  <project name="openwrt/staging/stintel.git" path="openwrt/staging/stintel"/>
+  <project name="openwrt/staging/thess.git" path="openwrt/staging/thess"/>
+  <project name="openwrt/staging/wigyori.git" path="openwrt/staging/wigyori"/>
+  <project name="openwrt/staging/xback.git" path="openwrt/staging/xback"/>
+  <project name="openwrt/staging/yousong.git" path="openwrt/staging/yousong"/>
+  <project name="openwrt/svn-archive/archive.git" path="openwrt/svn-archive/archive"/>
+  <project name="openwrt/svn-archive/docs.git" path="openwrt/svn-archive/docs"/>
+  <project name="openwrt/svn-archive/feeds.git" path="openwrt/svn-archive/feeds"/>
+  <project name="openwrt/svn-archive/openwrt.git" path="openwrt/svn-archive/openwrt"/>
+  <project name="openwrt/svn-archive/packages.git" path="openwrt/svn-archive/packages"/>
+  <project name="project/firewall3.git" path="project/firewall3"/>
+  <project name="project/fstools.git" path="project/fstools"/>
+  <project name="project/iwinfo.git" path="project/iwinfo"/>
+  <project name="project/jsonpath.git" path="project/jsonpath"/>
+  <project name="project/librpc-uclibc.git" path="project/librpc-uclibc"/>
+  <project name="project/libubox.git" path="project/libubox"/>
+  <project name="project/luci.git" path="project/luci"/>
+  <project name="project/luci2/ui.git" path="project/luci2/ui"/>
+  <project name="project/make_ext4fs.git" path="project/make_ext4fs"/>
+  <project name="project/mdnsd.git" path="project/mdnsd"/>
+  <project name="project/mountd.git" path="project/mountd"/>
+  <project name="project/netifd.git" path="project/netifd"/>
+  <project name="project/odhcp6c.git" path="project/odhcp6c"/>
+  <project name="project/odhcpd.git" path="project/odhcpd"/>
+  <project name="project/omcproxy.git" path="project/omcproxy"/>
+  <project name="project/opkg-lede.git" path="project/opkg-lede"/>
+  <project name="project/procd.git" path="project/procd"/>
+  <project name="project/relayd.git" path="project/relayd"/>
+  <project name="project/rpcd.git" path="project/rpcd"/>
+  <project name="project/ubox.git" path="project/ubox"/>
+  <project name="project/ubus.git" path="project/ubus"/>
+  <project name="project/ucert.git" path="project/ucert"/>
+  <project name="project/uci.git" path="project/uci"/>
+  <project name="project/uclient.git" path="project/uclient"/>
+  <project name="project/ugps.git" path="project/ugps"/>
+  <project name="project/uhttpd.git" path="project/uhttpd"/>
+  <project name="project/umbim.git" path="project/umbim"/>
+  <project name="project/uqmi.git" path="project/uqmi"/>
+  <project name="project/usbmode.git" path="project/usbmode"/>
+  <project name="project/usign.git" path="project/usign"/>
+  <project name="project/ustream-ssl.git" path="project/ustream-ssl"/>
+  <project name="web.git" path="web"/>
+  <project name="openwrt/staging/ynezz.git" path="openwrt/staging/ynezz"/>
 </manifest>

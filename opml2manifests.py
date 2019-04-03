@@ -26,7 +26,7 @@ def parseOpmlFile(path):
             for outline in outline_list.childNodes:
                 if outline.nodeName != 'outline':
                     continue
-                repos.append(outline.getAttribute('title')[:-len('.git')])
+                repos.append(outline.getAttribute('title'))
 
     return repos
 
@@ -52,6 +52,7 @@ def writeManifest(repos):
     for r in repos:
         project = doc.createElement('project')
         project.setAttribute('name', r)
+        project.setAttribute('path', r[:-len('.git')])
         manifest.appendChild(project)
 
     with open('default.xml', 'w') as xml_file:
