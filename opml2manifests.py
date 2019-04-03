@@ -26,7 +26,7 @@ def parseOpmlFile(path):
             for outline in outline_list.childNodes:
                 if outline.nodeName != 'outline':
                     continue
-                repos.append(outline.getAttribute('title'))
+                repos.append(outline.getAttribute('title')[:-len('.git')])
 
     return repos
 
